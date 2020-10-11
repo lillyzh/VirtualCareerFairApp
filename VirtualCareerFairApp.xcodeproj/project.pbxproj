@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50A6F612532E51E00D170F9 /* VirtualCareerFairAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F602532E51E00D170F9 /* VirtualCareerFairAppApp.swift */; };
+		B50A6F632532E51E00D170F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F622532E51E00D170F9 /* ContentView.swift */; };
+		B50A6F652532E51F00D170F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50A6F642532E51F00D170F9 /* Assets.xcassets */; };
+		B50A6F682532E51F00D170F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50A6F672532E51F00D170F9 /* Preview Assets.xcassets */; };
+		B50A6F732532E51F00D170F9 /* VirtualCareerFairAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F722532E51F00D170F9 /* VirtualCareerFairAppTests.swift */; };
+		B50A6F7E2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F7D2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B50A6F6F2532E51F00D170F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50A6F552532E51D00D170F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50A6F5C2532E51D00D170F9;
+			remoteInfo = VirtualCareerFairApp;
+		};
+		B50A6F7A2532E51F00D170F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B50A6F552532E51D00D170F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B50A6F5C2532E51D00D170F9;
+			remoteInfo = VirtualCareerFairApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B50A6F5D2532E51E00D170F9 /* VirtualCareerFairApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualCareerFairApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50A6F602532E51E00D170F9 /* VirtualCareerFairAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualCareerFairAppApp.swift; sourceTree = "<group>"; };
+		B50A6F622532E51E00D170F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B50A6F642532E51F00D170F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B50A6F672532E51F00D170F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B50A6F692532E51F00D170F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50A6F6E2532E51F00D170F9 /* VirtualCareerFairAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualCareerFairAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50A6F722532E51F00D170F9 /* VirtualCareerFairAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualCareerFairAppTests.swift; sourceTree = "<group>"; };
+		B50A6F742532E51F00D170F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B50A6F792532E51F00D170F9 /* VirtualCareerFairAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualCareerFairAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50A6F7D2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualCareerFairAppUITests.swift; sourceTree = "<group>"; };
+		B50A6F7F2532E51F00D170F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50A6F5A2532E51D00D170F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A6F6B2532E51F00D170F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A6F762532E51F00D170F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50A6F542532E51D00D170F9 = {
+			isa = PBXGroup;
+			children = (
+				B50A6F5F2532E51E00D170F9 /* VirtualCareerFairApp */,
+				B50A6F712532E51F00D170F9 /* VirtualCareerFairAppTests */,
+				B50A6F7C2532E51F00D170F9 /* VirtualCareerFairAppUITests */,
+				B50A6F5E2532E51E00D170F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50A6F5E2532E51E00D170F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50A6F5D2532E51E00D170F9 /* VirtualCareerFairApp.app */,
+				B50A6F6E2532E51F00D170F9 /* VirtualCareerFairAppTests.xctest */,
+				B50A6F792532E51F00D170F9 /* VirtualCareerFairAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50A6F5F2532E51E00D170F9 /* VirtualCareerFairApp */ = {
+			isa = PBXGroup;
+			children = (
+				B50A6F602532E51E00D170F9 /* VirtualCareerFairAppApp.swift */,
+				B50A6F622532E51E00D170F9 /* ContentView.swift */,
+				B50A6F642532E51F00D170F9 /* Assets.xcassets */,
+				B50A6F692532E51F00D170F9 /* Info.plist */,
+				B50A6F662532E51F00D170F9 /* Preview Content */,
+			);
+			path = VirtualCareerFairApp;
+			sourceTree = "<group>";
+		};
+		B50A6F662532E51F00D170F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B50A6F672532E51F00D170F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B50A6F712532E51F00D170F9 /* VirtualCareerFairAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B50A6F722532E51F00D170F9 /* VirtualCareerFairAppTests.swift */,
+				B50A6F742532E51F00D170F9 /* Info.plist */,
+			);
+			path = VirtualCareerFairAppTests;
+			sourceTree = "<group>";
+		};
+		B50A6F7C2532E51F00D170F9 /* VirtualCareerFairAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B50A6F7D2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift */,
+				B50A6F7F2532E51F00D170F9 /* Info.plist */,
+			);
+			path = VirtualCareerFairAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50A6F5C2532E51D00D170F9 /* VirtualCareerFairApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50A6F822532E51F00D170F9 /* Build configuration list for PBXNativeTarget "VirtualCareerFairApp" */;
+			buildPhases = (
+				B50A6F592532E51D00D170F9 /* Sources */,
+				B50A6F5A2532E51D00D170F9 /* Frameworks */,
+				B50A6F5B2532E51D00D170F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualCareerFairApp;
+			productName = VirtualCareerFairApp;
+			productReference = B50A6F5D2532E51E00D170F9 /* VirtualCareerFairApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B50A6F6D2532E51F00D170F9 /* VirtualCareerFairAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50A6F852532E51F00D170F9 /* Build configuration list for PBXNativeTarget "VirtualCareerFairAppTests" */;
+			buildPhases = (
+				B50A6F6A2532E51F00D170F9 /* Sources */,
+				B50A6F6B2532E51F00D170F9 /* Frameworks */,
+				B50A6F6C2532E51F00D170F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50A6F702532E51F00D170F9 /* PBXTargetDependency */,
+			);
+			name = VirtualCareerFairAppTests;
+			productName = VirtualCareerFairAppTests;
+			productReference = B50A6F6E2532E51F00D170F9 /* VirtualCareerFairAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B50A6F782532E51F00D170F9 /* VirtualCareerFairAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50A6F882532E51F00D170F9 /* Build configuration list for PBXNativeTarget "VirtualCareerFairAppUITests" */;
+			buildPhases = (
+				B50A6F752532E51F00D170F9 /* Sources */,
+				B50A6F762532E51F00D170F9 /* Frameworks */,
+				B50A6F772532E51F00D170F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50A6F7B2532E51F00D170F9 /* PBXTargetDependency */,
+			);
+			name = VirtualCareerFairAppUITests;
+			productName = VirtualCareerFairAppUITests;
+			productReference = B50A6F792532E51F00D170F9 /* VirtualCareerFairAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50A6F552532E51D00D170F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B50A6F5C2532E51D00D170F9 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B50A6F6D2532E51F00D170F9 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B50A6F5C2532E51D00D170F9;
+					};
+					B50A6F782532E51F00D170F9 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B50A6F5C2532E51D00D170F9;
+					};
+				};
+			};
+			buildConfigurationList = B50A6F582532E51D00D170F9 /* Build configuration list for PBXProject "VirtualCareerFairApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B50A6F542532E51D00D170F9;
+			productRefGroup = B50A6F5E2532E51E00D170F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50A6F5C2532E51D00D170F9 /* VirtualCareerFairApp */,
+				B50A6F6D2532E51F00D170F9 /* VirtualCareerFairAppTests */,
+				B50A6F782532E51F00D170F9 /* VirtualCareerFairAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50A6F5B2532E51D00D170F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50A6F682532E51F00D170F9 /* Preview Assets.xcassets in Resources */,
+				B50A6F652532E51F00D170F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A6F6C2532E51F00D170F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A6F772532E51F00D170F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50A6F592532E51D00D170F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50A6F632532E51E00D170F9 /* ContentView.swift in Sources */,
+				B50A6F612532E51E00D170F9 /* VirtualCareerFairAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A6F6A2532E51F00D170F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50A6F732532E51F00D170F9 /* VirtualCareerFairAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B50A6F752532E51F00D170F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50A6F7E2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B50A6F702532E51F00D170F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50A6F5C2532E51D00D170F9 /* VirtualCareerFairApp */;
+			targetProxy = B50A6F6F2532E51F00D170F9 /* PBXContainerItemProxy */;
+		};
+		B50A6F7B2532E51F00D170F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B50A6F5C2532E51D00D170F9 /* VirtualCareerFairApp */;
+			targetProxy = B50A6F7A2532E51F00D170F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B50A6F802532E51F00D170F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B50A6F812532E51F00D170F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50A6F832532E51F00D170F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualCareerFairApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KX88HY9L2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VirtualCareerFairApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilly-Zhou.VirtualCareerFairApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B50A6F842532E51F00D170F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VirtualCareerFairApp/Preview Content\"";
+				DEVELOPMENT_TEAM = KX88HY9L2T;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VirtualCareerFairApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilly-Zhou.VirtualCareerFairApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B50A6F862532E51F00D170F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX88HY9L2T;
+				INFOPLIST_FILE = VirtualCareerFairAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilly-Zhou.VirtualCareerFairAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualCareerFairApp.app/VirtualCareerFairApp";
+			};
+			name = Debug;
+		};
+		B50A6F872532E51F00D170F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX88HY9L2T;
+				INFOPLIST_FILE = VirtualCareerFairAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilly-Zhou.VirtualCareerFairAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualCareerFairApp.app/VirtualCareerFairApp";
+			};
+			name = Release;
+		};
+		B50A6F892532E51F00D170F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX88HY9L2T;
+				INFOPLIST_FILE = VirtualCareerFairAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilly-Zhou.VirtualCareerFairAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualCareerFairApp;
+			};
+			name = Debug;
+		};
+		B50A6F8A2532E51F00D170F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KX88HY9L2T;
+				INFOPLIST_FILE = VirtualCareerFairAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lilly-Zhou.VirtualCareerFairAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualCareerFairApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50A6F582532E51D00D170F9 /* Build configuration list for PBXProject "VirtualCareerFairApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50A6F802532E51F00D170F9 /* Debug */,
+				B50A6F812532E51F00D170F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50A6F822532E51F00D170F9 /* Build configuration list for PBXNativeTarget "VirtualCareerFairApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50A6F832532E51F00D170F9 /* Debug */,
+				B50A6F842532E51F00D170F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50A6F852532E51F00D170F9 /* Build configuration list for PBXNativeTarget "VirtualCareerFairAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50A6F862532E51F00D170F9 /* Debug */,
+				B50A6F872532E51F00D170F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50A6F882532E51F00D170F9 /* Build configuration list for PBXNativeTarget "VirtualCareerFairAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50A6F892532E51F00D170F9 /* Debug */,
+				B50A6F8A2532E51F00D170F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50A6F552532E51D00D170F9 /* Project object */;
+}
