@@ -1,59 +1,14 @@
 import SwiftUI
 
 struct JoinView : View {
-    @State var showingRecSignUpSheet = false
-    @State var showingPartSignUpSheet = false
-    @Binding var showJoinView: Bool
-    var body : some View {
-        VStack {
-            Text("Join as")
-                .font(.largeTitle)
-                .fontWeight(.semibold)
-            Button(action: {
-                withAnimation{
-                    self.showingRecSignUpSheet.toggle()
-                }
-            }) {
-                Text("Recruiter")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 220, height: 60)
-                    .background(Color.pink)
-                    .cornerRadius(15.0)
-            }
-            .sheet(isPresented: $showingRecSignUpSheet) {
-                SignUpView(showSignUpView: $showingRecSignUpSheet, showJoinView: $showJoinView)
-            }
-            Button(action: {
-                self.showingPartSignUpSheet.toggle()
-            }) {
-                Text("Participant")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 220, height: 60)
-                    .background(Color.pink)
-                    .cornerRadius(15.0)
-            }
-            .sheet(isPresented: $showingPartSignUpSheet) {
-                Text("Sign up")
-            }
-        }
-        .padding()
-        .background(Color.white)
-        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200, alignment: .center)
-    }
-}
-
-struct SignUpView : View {
+    @Binding var recruiterList: [Recruiter]
+    @Binding var participantList: [Participant]
     @State var firstName: String = ""
     @State var lastName: String = ""
-    @State var companyName: String = ""
-    @Binding var showSignUpView: Bool
+    @State var orgName: String = ""
     @Binding var showJoinView: Bool
     var body : some View {
-        VStack {
+        VStack(alignment: .center) {
             Text("Welcome!")
                 .font(.largeTitle)
                 .fontWeight(.semibold)
@@ -68,25 +23,45 @@ struct SignUpView : View {
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            TextField("Company name", text: $companyName)
+            TextField("Organization name", text: $orgName)
             .padding()
                 .background(Color.gray.opacity(0.2))
                 .cornerRadius(5.0)
                 .padding(.bottom, 20)
-            Button(action: {
-                withAnimation{
-                    self.showSignUpView.toggle()
-                    self.showJoinView.toggle()
+            Text("Join as")
+                .font(.headline)
+            HStack {
+                Button(action: {
+                    withAnimation{
+                        self.showJoinView.toggle()
+                        self.recruiterList.append(Recruiter(firstName: firstName, lastName: lastName, companyName: orgName))
+                    }
+                }) {
+                    Text("Recruiter")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.pink)
+                        .cornerRadius(15.0)
                 }
-            }) {
-                Text("Join")
-                    .font(.headline)
-                    .foregroundColor(.white)
-                    .padding()
-                    .frame(width: 220, height: 60)
-                    .background(Color.pink)
-                    .cornerRadius(15.0)
+                Button(action: {
+                    withAnimation{
+                        self.showJoinView.toggle()
+                        self.participantList.append(Participant(firstName: firstName, lastName: lastName, orgName: orgName))
+                    }
+                }) {
+                    Text("Participant")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.pink)
+                        .cornerRadius(15.0)
+                }
+
             }
         }
+        .padding()
+        .background(Color.white)
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200)
     }
 }

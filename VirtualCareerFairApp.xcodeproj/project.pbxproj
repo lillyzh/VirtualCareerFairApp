@@ -15,6 +15,7 @@
 		B50A6F7E2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F7D2532E51F00D170F9 /* VirtualCareerFairAppUITests.swift */; };
 		B50A6F8F2533002200D170F9 /* Recruiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F8E2533002200D170F9 /* Recruiter.swift */; };
 		B50A6F942533013A00D170F9 /* Enrollment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F932533013A00D170F9 /* Enrollment.swift */; };
+		B50A6F9F25331C1C00D170F9 /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50A6F9E25331C1C00D170F9 /* Participant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B50A6F7F2532E51F00D170F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B50A6F8E2533002200D170F9 /* Recruiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recruiter.swift; sourceTree = "<group>"; };
 		B50A6F932533013A00D170F9 /* Enrollment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enrollment.swift; sourceTree = "<group>"; };
+		B50A6F9E25331C1C00D170F9 /* Participant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B50A6F622532E51E00D170F9 /* ContentView.swift */,
 				B50A6F932533013A00D170F9 /* Enrollment.swift */,
 				B50A6F8E2533002200D170F9 /* Recruiter.swift */,
+				B50A6F9E25331C1C00D170F9 /* Participant.swift */,
 				B50A6F642532E51F00D170F9 /* Assets.xcassets */,
 				B50A6F692532E51F00D170F9 /* Info.plist */,
 				B50A6F662532E51F00D170F9 /* Preview Content */,
@@ -267,6 +270,7 @@
 			files = (
 				B50A6F632532E51E00D170F9 /* ContentView.swift in Sources */,
 				B50A6F8F2533002200D170F9 /* Recruiter.swift in Sources */,
+				B50A6F9F25331C1C00D170F9 /* Participant.swift in Sources */,
 				B50A6F612532E51E00D170F9 /* VirtualCareerFairAppApp.swift in Sources */,
 				B50A6F942533013A00D170F9 /* Enrollment.swift in Sources */,
 			);
