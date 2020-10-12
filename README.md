@@ -6,7 +6,6 @@ For example: software engineer, entry level and full time. The reason why I chos
 ## How this Virtual Career Fair App works
 Recruiters and participants can sign up with their organization name and choose what kind of jobs/candidates they are looking for. To ensure my app can do fast lookup for the matching processs, I am using bit manipulation technique to represent each indicated job perference. 
 <img src="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.16.55%20PM.png" height="500" width="250">
-<img scr="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.16.26%20PM.png" height="500" width="250">
 <img src="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.17.04%20PM.png" height="500" width="250">
 <img src="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.19.05%20PM.png" height="500" width="250">
 <img src="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.19.56%20PM.png" height="500" width="250">
