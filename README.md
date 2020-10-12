@@ -5,4 +5,4 @@ For example: software engineer, entry level and full time. The reason why I chos
 
 ## How this Virtual Career Fair App work
 
-<img src="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.19.05%20PM.png" height="200" width="50">
+<img src="https://github.com/lillyzh/VirtualCareerFairApp/blob/main/Images/Screen%20Shot%202020-10-11%20at%205.19.05%20PM.png" height="500" width="300">
