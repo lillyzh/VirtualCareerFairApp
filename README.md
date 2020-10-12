@@ -5,6 +5,7 @@ For example: software engineer, entry level and full time. The reason why I chos
 
 ## How this Virtual Career Fair App works
 Recruiters and participants can sign up with their organization name and choose what kind of jobs/candidates they are looking for. Each recruiter and each participant is represented by a Recruiter Class and a Participant Class respectively. For each class, I create an 8-bit integer that stores all the user's job interests so that the app can do fast lookup during the matching processs. For example, if a user is looking for a software engineering job, than I turn the lowest signicant bit on. Otherwise, this bit stays off. To determine if there is a match between a recruiter and a participant, I employ "and" bitwise operation on the two 8-bit numbers. If the result comes out greater than zero, then this means that the recruiter and the participant have at least one thing in common. Therefore, I should match them. After a recruiter and a participant have been matched, the participant's name is removed from the lobby section and the recruiter's green check mark turns to red cross mark to indicate "not available". With this bit-manipulation approach, the matching process can go as fast as O(1) because I don't need to iterate through every interest to determine a match. In addition, I also save on a lot of memory usage, which is very beneficial when the app needs to scale.
+
 Screenshots
 ------------
 
