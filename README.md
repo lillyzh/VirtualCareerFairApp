@@ -10,7 +10,7 @@ With this bit-manipulation approach, the matching process can run as fast as O(1
 
 ## Tools
 I coded this app in Swift/SwiftUI on Xcode. I decided to use SwiftUI because of its reactive nature. In addition, I wanted to demonstrate my skills in software development and thought process visually to make sure all messages do come across. 
-This project took me roughly ten hours because I wanted the user experience to make sense and also encountered some bugs along the way with SwiftUI. 
+This project took me roughly ten hours because I wanted the user experience to make sense (ex: pop-up window, view animation)and also encountered some bugs along the way with SwiftUI. 
 
 Screenshots
 ------------
